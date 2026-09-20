@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const LoginToken string = "wsdswdwwd" // Public
+
 func main() {
 	var username string = "Swapnil"
 	fmt.Println(username)
@@ -28,5 +30,11 @@ func main() {
 	var website = "swapnilbhojwani.com"
 	fmt.Println(website)
 	fmt.Printf("Variable is of type : %T \n", website)
+
+	numberOfUsers := 30000
+	fmt.Println(numberOfUsers)
+
+	fmt.Println(LoginToken)
+	fmt.Printf("Variable is of type : %T \n", LoginToken)
 
 }
