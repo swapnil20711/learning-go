@@ -7,6 +7,12 @@ import (
 )
 
 func main() {
+	// var name string
+
+	// fmt.Println("Enter your name: ")
+	// fmt.Scan(&name)
+	// fmt.Printf("Your name is %s\n", name)
+
 	welcome := "Welcome to user input"
 
 	fmt.Println(welcome)
